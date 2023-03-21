@@ -1,0 +1,37 @@
+[
+    {
+        "id":1,
+        "name":"G1",
+        "desc":"负责审批直播相关事务",
+        "order":99,
+        "isEnable":false
+    },
+    {
+        "id":2,
+        "name":"G2",
+        "desc":"负责审批直播相关事务",
+        "order":99,
+        "isEnable":false
+    },
+    {
+        "id":3,
+        "name":"G3",
+        "desc":"负责审批直播相关事务",
+        "order":99,
+        "isEnable":false
+    },
+    {
+        "id":4,
+        "name":"G4",
+        "desc":"负责审批直播相关事务",
+        "order":99,
+        "isEnable":false
+    },
+    {
+        "id":5,
+        "name":"G5",
+        "desc":"负责审批直播相关事务",
+        "order":99,
+        "isEnable":false
+    }
+]

@@ -1,0 +1,60 @@
+[
+    {
+        "index": "/",
+        "name": "首页",
+        "arr": [
+            {
+                "index": "/",
+                "name": "桌面"
+            }
+        ],
+        "children": [
+            {
+                "index": "1-1-1",
+                "name": "xxx"
+            },
+            {
+                "index": "1-1-2",
+                "name": "xxx",
+                "chlidren": [
+                    {
+                        "index": "1-2-1",
+                        "name": "xxx"
+                    },
+                    {
+                        "index": "1-2-2",
+                        "name": "xxx"
+                    },
+                    {
+                        "index": "1-2-3",
+                        "name": "xxx"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "index": "2",
+        "name": "xxx",
+        "arr": [
+            {
+                "index": "2-1",
+                "name": "xxx"
+            },
+            {
+                "index": "2-2",
+                "name": "xxx"
+            }
+        ],
+        "children": [
+            {
+                "index": "2-1-1",
+                "name": "xxx"
+            },
+            {
+                "index": "2-1-2",
+                "name": "xxx"
+            }
+        ]
+    }
+]

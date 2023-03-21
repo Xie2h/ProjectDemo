@@ -1,0 +1,43 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+  #app {
+    height: 100%;
+  }
+}
+
+.common-layout,
+.el-container {
+  height: 100%;
+  .el-header{
+    height: 100px;
+  }
+  .el-main{
+    background-color: #F5F7F9; //245,247,249
+    padding: 10px;
+  }
+  .aside-menu {
+    background-color: #001529;
+    height: 100%;
+  }
+}
+
+
+.dropdown {
+  float: right; 
+  margin-right: 10px;
+  height: 50px;
+  line-height: 66px;
+  .el-avatar {
+    margin-right: 5px;
+  }
+  .el-dropdown {
+    height: 50px;
+    line-height: 50px;
+  }
+}
+
+.cell{
+  text-align: center !important;
+}

@@ -1,0 +1,364 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\CodingDemo\\ProjectDemo\\APIDemo\\ApiDemo\\ApiDemo\\ApiDemo.csproj": {}
+  },
+  "projects": {
+    "D:\\CodingDemo\\ProjectDemo\\APIDemo\\ApiDemo\\ApiDemo\\ApiDemo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\CodingDemo\\ProjectDemo\\APIDemo\\ApiDemo\\ApiDemo\\ApiDemo.csproj",
+        "projectName": "ApiDemo",
+        "projectPath": "D:\\CodingDemo\\ProjectDemo\\APIDemo\\ApiDemo\\ApiDemo\\ApiDemo.csproj",
+        "packagesPath": "C:\\Users\\25673\\.nuget\\packages\\",
+        "outputPath": "D:\\CodingDemo\\ProjectDemo\\APIDemo\\ApiDemo\\ApiDemo\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\25673\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\CodingDemo\\ProjectDemo\\APIDemo\\ApiDemo\\Interface\\Interface.csproj": {
+                "projectPath": "D:\\CodingDemo\\ProjectDemo\\APIDemo\\ApiDemo\\Interface\\Interface.csproj"
+              },
+              "D:\\CodingDemo\\ProjectDemo\\APIDemo\\ApiDemo\\Model\\Model.csproj": {
+                "projectPath": "D:\\CodingDemo\\ProjectDemo\\APIDemo\\ApiDemo\\Model\\Model.csproj"
+              },
+              "D:\\CodingDemo\\ProjectDemo\\APIDemo\\ApiDemo\\Service\\Service.csproj": {
+                "projectPath": "D:\\CodingDemo\\ProjectDemo\\APIDemo\\ApiDemo\\Service\\Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "Autofac": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[6.0.15, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "SqlSugarCore": {
+              "target": "Package",
+              "version": "[5.1.4.59, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\CodingDemo\\ProjectDemo\\APIDemo\\ApiDemo\\commom\\Commom.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\CodingDemo\\ProjectDemo\\APIDemo\\ApiDemo\\commom\\Commom.csproj",
+        "projectName": "Commom",
+        "projectPath": "D:\\CodingDemo\\ProjectDemo\\APIDemo\\ApiDemo\\commom\\Commom.csproj",
+        "packagesPath": "C:\\Users\\25673\\.nuget\\packages\\",
+        "outputPath": "D:\\CodingDemo\\ProjectDemo\\APIDemo\\ApiDemo\\commom\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\25673\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\CodingDemo\\ProjectDemo\\APIDemo\\ApiDemo\\Interface\\Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\CodingDemo\\ProjectDemo\\APIDemo\\ApiDemo\\Interface\\Interface.csproj",
+        "projectName": "Interface",
+        "projectPath": "D:\\CodingDemo\\ProjectDemo\\APIDemo\\ApiDemo\\Interface\\Interface.csproj",
+        "packagesPath": "C:\\Users\\25673\\.nuget\\packages\\",
+        "outputPath": "D:\\CodingDemo\\ProjectDemo\\APIDemo\\ApiDemo\\Interface\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\25673\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\CodingDemo\\ProjectDemo\\APIDemo\\ApiDemo\\Model\\Model.csproj": {
+                "projectPath": "D:\\CodingDemo\\ProjectDemo\\APIDemo\\ApiDemo\\Model\\Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\CodingDemo\\ProjectDemo\\APIDemo\\ApiDemo\\Model\\Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\CodingDemo\\ProjectDemo\\APIDemo\\ApiDemo\\Model\\Model.csproj",
+        "projectName": "Model",
+        "projectPath": "D:\\CodingDemo\\ProjectDemo\\APIDemo\\ApiDemo\\Model\\Model.csproj",
+        "packagesPath": "C:\\Users\\25673\\.nuget\\packages\\",
+        "outputPath": "D:\\CodingDemo\\ProjectDemo\\APIDemo\\ApiDemo\\Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\25673\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "SqlSugarCore": {
+              "target": "Package",
+              "version": "[5.1.4.59, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\CodingDemo\\ProjectDemo\\APIDemo\\ApiDemo\\Service\\Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\CodingDemo\\ProjectDemo\\APIDemo\\ApiDemo\\Service\\Service.csproj",
+        "projectName": "Service",
+        "projectPath": "D:\\CodingDemo\\ProjectDemo\\APIDemo\\ApiDemo\\Service\\Service.csproj",
+        "packagesPath": "C:\\Users\\25673\\.nuget\\packages\\",
+        "outputPath": "D:\\CodingDemo\\ProjectDemo\\APIDemo\\ApiDemo\\Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\25673\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\CodingDemo\\ProjectDemo\\APIDemo\\ApiDemo\\commom\\Commom.csproj": {
+                "projectPath": "D:\\CodingDemo\\ProjectDemo\\APIDemo\\ApiDemo\\commom\\Commom.csproj"
+              },
+              "D:\\CodingDemo\\ProjectDemo\\APIDemo\\ApiDemo\\Interface\\Interface.csproj": {
+                "projectPath": "D:\\CodingDemo\\ProjectDemo\\APIDemo\\ApiDemo\\Interface\\Interface.csproj"
+              },
+              "D:\\CodingDemo\\ProjectDemo\\APIDemo\\ApiDemo\\Model\\Model.csproj": {
+                "projectPath": "D:\\CodingDemo\\ProjectDemo\\APIDemo\\ApiDemo\\Model\\Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

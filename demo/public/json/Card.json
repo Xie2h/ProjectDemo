@@ -1,0 +1,22 @@
+[
+    {
+        "Title": "新增用户",
+        "Icon": "CoffeeCup",
+        "Count": 10291
+    },
+    {
+        "Title": "未读消息",
+        "Icon": "Apple",
+        "Count": 8912
+    },
+    {
+        "Title": "成交金额",
+        "Icon": "Drizzling",
+        "Count": 9280
+    },
+    {
+        "Title": "购物总量",
+        "Icon": "Headset",
+        "Count": 13600
+    }
+]
